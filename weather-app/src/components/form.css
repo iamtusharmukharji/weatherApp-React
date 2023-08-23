@@ -1,0 +1,50 @@
+.styled-form {
+    max-width: 90vh;
+    margin: 0 auto;
+    padding: 2vh;
+    background-color: #fff;
+    border-radius: 1.5vh;
+    box-shadow: 0 2vh 4vh rgba(0, 0, 0, 0.1);
+  }
+  
+  .styled-form h2 {
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 2vh;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 1vh;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 90%;
+    height: 60%;
+    padding: 1vh;
+    border: 2px solid #ccc;
+    border-radius: 1vh;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 1vh 2vh;
+    background-color: #4b4b4b;
+    color: #fff;
+    border: none;
+    border-radius: 1vh;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0a0a0a;
+  }
+  
